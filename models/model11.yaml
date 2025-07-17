@@ -1,0 +1,10 @@
+title: model11
+x-stoplight:
+  id: lqc6l6j9ajvr5
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: qozlkptw6nx44
+description: model11
