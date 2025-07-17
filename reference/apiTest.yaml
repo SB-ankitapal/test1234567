@@ -235,7 +235,7 @@ components:
     User:
       title: User
       type: object
-      description: ''
+      description: user123
       examples:
         - id: 142
           firstName: Alice
