@@ -151,6 +151,8 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: co55v8rme9snj
+      x-internal: true
+      deprecated: true
 components:
   schemas:
     User:
