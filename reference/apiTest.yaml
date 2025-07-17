@@ -118,8 +118,85 @@ paths:
                     createDate: '2020-11-18'
         '400':
           description: Missing Required Information
+          content:
+            application/EDIFACT:
+              schema:
+                type: object
+                properties:
+                  testt212:
+                    type: string
+                    x-stoplight:
+                      id: 69eoh0xqn1mnz
+                    description: |-
+                      tesyfusgyfu
+                      ```json json_schema
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                      ```
+                      ```json http
+                      {
+                        "method": "get",
+                        "url": "https://todos.stoplight.io/todos"
+                      }
+
+                      Column A | Column B | Column C
+                      ---------|----------|---------
+                       A1 | B1 | C1
+                       A2 | B2 | C2
+                      >  A3 | B3 | C3# [](url)******
         '409':
           description: Email Already Taken
+          content:
+            application/octet-stream:
+              schema:
+                type: object
+                properties:
+                  tesgggyu:
+                    x-stoplight:
+                      id: q9r313q7ca23h
+                    enum: []
+                    description: |-
+                      ```json
+
+                      Column A | Column B | Column C
+                      ---------|----------|---------
+                       A1 | B1 | C1
+                       A2 | B2 | C2
+                       A3 | B3 | C3
+
+                       
+                      ```json http
+                      {
+                        "method": "get",
+                        "url": "https://todos.stoplight.io/todos"
+                      }
+                      ```
+                      ```testyt
+                      ****
+                      *
+                      ~~
+                      > 
+                      [](url)
+                      # ``~~*
+
+
+
+                      ```json json_schema
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                      ```
       requestBody:
         content:
           application/json:
